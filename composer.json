@@ -1,27 +1,14 @@
 {
-    "name": "cmd-wrapper/wrapper-name-slug",
-    "description": "Wrapper Template",
+    "name": "cmd-wrapper/attributes",
+    "description": "Wrapper Attributes",
     "type": "library",
     "require": {
-        "php": "^8",
-        "artarts36/shell-command": "^2.1.13",
-        "cmd-wrapper/wrapper-contracts": "dev-main"
+        "php": "^8"
     },
     "license": "MIT",
-    "repositories": [
-        {
-            "url": "https://github.com/PHP-Cmd-Wrapper/wrapper-contracts",
-            "type": "vcs"
-        }
-    ],
     "autoload": {
         "psr-4": {
-            "CmdWrapper\\Wrapper\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "CmdWrapper\\Wrapper\\Tests\\": "src/"
+            "CmdWrapper\\Wrapper\\Attributes\\": "src/"
         }
     },
     "authors": [
