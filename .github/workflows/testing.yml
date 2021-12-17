@@ -33,9 +33,3 @@ jobs:
         env:
           MR_LINTER_GITHUB_HTTP_TOKEN: ${{ secrets.MR_LINTER_GITHUB_HTTP_TOKEN }}
         run: composer mr-lint
-
-      - name: Lint
-        run: composer lint
-
-      - name: Run Tests
-        run: composer test
